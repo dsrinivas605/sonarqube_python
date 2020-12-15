@@ -10,9 +10,9 @@
 # Insrall nose, coverage, nosexcover, pylint
     pip install nose coverage nosexcover pylint
 ## Sonarqube installation
-   [Sonarqube installaton](https://github.com/Naresh240/sonarqube-installation.git)
+   [Sonarqube installaton](https://github.com/sduggi/sonarqube-installation.git)
 # Clone code into local
-    git clone https://github.com/Naresh240/sonarqube-python.git
+    git clone https://github.com/sduggi/sonarqube-python.git
     cd sonarqube-python
 # Run command to get "nosetests.xml" & "coverage.xml"
   Once installed, you need to execute nosetests to run your unit tests, and generate information relating to the source code. The following line runs the test runner, generates coverage information, and generates an XML test report that SonarScanner will use:
