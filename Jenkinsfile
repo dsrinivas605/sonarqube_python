@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("SCM"){
             steps{
-                git branch: 'master', url: 'https://github.com/sduggi/sonarqube-python.git'
+                git branch: 'master', url: 'https://github.com/sduggi/sonarqube_python.git'
             }
         }
         stage("test in Sonarqube"){
